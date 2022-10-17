@@ -75,11 +75,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     height: 85px;
-    padding: 8px 16px;
-
+    padding:var(--sp-xs)
 }
-
 
 header nav {
     list-style: none;
