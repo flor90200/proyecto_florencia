@@ -103,19 +103,16 @@ header a {
     font-size: 700;
     color: var(--primary);
     text-decoration: none;
-    transition: transform 3s;
+    transition: all .3s ease-in-out;
 }
 
 header nav a:hover {
     color: var(--accent);
-    transform: scale(1.2);
-    cursor: pointer;
 }
 
 header img{
     height: 30px;
     width: auto;
-    transition: all;
 }
 
 .nav {
