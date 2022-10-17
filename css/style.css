@@ -71,7 +71,7 @@ img {
 }
 /*bootstrap*/
 
-nav-item {
+ul nav-item {
     display: inline-block;
     padding: 0 16px;
 }
