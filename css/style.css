@@ -71,7 +71,7 @@ img {
 }
 /*bootstrap*/
 
-.ul nav-item {
+.header ul a{
     display: inline-block;
     padding: 0 16px;
 }
