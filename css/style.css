@@ -69,6 +69,12 @@ img {
     margin:  0 auto;
     padding: 0 2.4rem;
 }
+/*bootstrap*/
+
+nav-item {
+    display: inline-block;
+    padding: 0 16px;
+}
 /*Header*/
 header {
     background-color:var(--secondary) ;
@@ -390,6 +396,12 @@ grid-row: 9 / 11;
     }
     
 }
+
+
+.post-preview {
+    background-color:#b855b6 ;
+}
+
 /*platillos*/
 
 .image-group {
