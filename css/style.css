@@ -33,7 +33,6 @@
     --sp-sm: 1.6rem;
     --sp-xs: 0.8rem;
 }
-
 *,
 *::before,
 *::after {
@@ -55,9 +54,7 @@ body{
 }
 section{ 
     overflow: hidden;
-
 }
-
 
 img {
     width: 100%;
@@ -69,13 +66,7 @@ img {
     margin:  0 auto;
     padding: 0 2.4rem;
 }
-/*bootstrap*/
 
-.header ul a{
-    display: inline-block;
-    padding: 0 16px;
-    list-style: none;
-}
 /*Header*/
 header {
     background-color:var(--secondary) ;
@@ -85,6 +76,7 @@ header {
     flex-wrap: wrap;
     height: 85px;
     padding:var(--sp-xs)
+    
 }
 
 header nav {
@@ -103,7 +95,6 @@ a {
 p {
     font-size: 1.6rem;
 }
-
 
 header a {
     font-size: 700;
@@ -128,8 +119,32 @@ header img{
     justify-content: center;
 }
 
-/*menu*/
 
+
+/*bootstrap*/
+
+.header ul a{
+    justify-content: space-between;
+    list-style: none;
+    display: flex ;
+    align-items: center;
+}
+
+.header img{
+    height: 5vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header nav li{
+    display: inline-block;
+    padding: 0.2em;
+    height: 0.2em;
+}
+
+/*menu*/
 .img-photo {
     width: 100%;
     height: 100vh;
@@ -154,14 +169,24 @@ header img{
 }
 
 .head {
-    color: rgb(255, 255, 255);
     font-size: 3.7rem;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: .5rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../image/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
 }
 
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
 
 .he-des h5 {
     color: rgb(0, 0, 0);
@@ -457,16 +482,20 @@ footer {
     justify-content: center;
 }
 
+    
+
 .social-icons i {
     font-size: 2rem;
     color: #dac581;
     padding: .8rem 2rem;
-    
+    display: inline-block;
+
 }
 
-.social-icons i:hover,
-.social-icons i:focus {
+.social-icons i:hover {
     color: var(--accent);
+    transform: rotate(360deg);
+    transition: .6s;
 }
 
 .news-form {
