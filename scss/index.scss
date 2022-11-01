@@ -6,8 +6,10 @@
 
 /*misc*/
 
-@import '../misc/normalize';
-@import '.../partials/media';
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/media';
+
 /* partials */
 
 @import './partials/header';
