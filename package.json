@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-florencia-napoli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/translated css/scss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flor90200/proyecto_florencia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flor90200/proyecto_florencia/issues"
+  },
+  "homepage": "https://github.com/flor90200/proyecto_florencia#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  }
+}

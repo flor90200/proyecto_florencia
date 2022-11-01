@@ -1,0 +1,23 @@
+/*variables*/
+@import url('<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">');
+
+
+/*misc*/
+
+@import '../misc/normalize';
+@import '.../partials/media';
+/* partials */
+
+@import './partials/header';
+@import './partials/footer';
+
+/*pages*/
+
+@import './pages/index';
+@import './pages/personajes';
+@import './pages/historia';
+@import './pages/capitulos';
+@import './pages/galeria';
+@import './pages/contacto';

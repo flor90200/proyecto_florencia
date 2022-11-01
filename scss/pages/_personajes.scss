@@ -1,0 +1,178 @@
+/*personajes*/
+.section {
+    padding: $sp-xl;
+    font-size: $text-xs;
+    display: flex;
+    justify-content: center;
+}
+.post-title {
+    font-size: $text-lg ;
+}
+.post-subtitle {
+    font-size: $text-md;
+    color: $acent
+}
+.post-text {
+    font-size: $text-sm;
+}
+.section-1 {
+    display:grid;
+    gap: $sp-md;
+    font-size: $text-md;
+    background-color: $acent;
+
+}
+.post-title-1 {
+    font-size: $text-lg;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-1 {
+    font-size: var $text-md;
+    color: var $primary;
+    display: flex;
+    justify-content: center;
+}
+.post-text-1 {
+    font-size: var $text-sm;
+}
+.section-2 {
+    display:flex ;
+    gap: var $sp-md;
+    font-size: var $text-md;
+    background-color: var $primary;
+}
+.post-title-2 {
+    font-size: var(--text-lg) ;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-2 {
+    font-size: var $text-md;
+    color: var $acent;    display: flex;
+    justify-content: center;
+}
+.post-text-2 {
+    font-size: var $text-sm;
+}
+.section-3 {
+    display:grid ;
+    gap: var $sp-md;
+    font-size: var $text-md;
+    background-color: var $acent;
+}
+.post-title-3 {
+    font-size: var $text-lg;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-3 {
+    font-size: var $text-md;
+    color: var $primary;
+    display: flex;
+    justify-content: center;
+}
+.post-text-3 {
+    font-size: var $text-sm;
+}
+.section-4 {
+    display:grid;
+    gap: var $sp-md;
+    font-size: var $text-md;
+    background-color: var $primary;
+}
+.post-title-4 {
+    font-size: var $text-lg;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-4 {
+    font-size: var $text-md;
+    color: var $acent;
+    display: flex;
+    justify-content: center;
+}
+.post-text-4 {
+    font-size: var $text-sm;
+}
+.section-5 {
+    display:flex ;
+    gap: var $sp-md;
+    font-size: var $text-md;
+    background-color: var $acent;
+}
+.post-title-5 {
+    font-size: $text-lg;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-5 {
+    font-size: var $text-md;
+    color: var $primary;
+    display: flex;
+    justify-content: center;
+}
+.post-text-5 {
+    font-size: var $text-sm;
+}
+.section-6 {
+    display:grid ;
+    gap: var $sp-md;
+    font-size: var$text-md;
+    background-color:var $primary;
+}
+.post-title-6 {
+    font-size: var $text-lg;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-6 {
+    font-size: var $text-md;
+    color: var $acent;
+    display: flex;
+    justify-content: center;
+}
+.post-text-6 {
+    font-size: var $text-sm;
+}
+.section-7 {
+    display:grid ;
+    gap: var $sp-md;
+    font-size: var $text-md;
+    background-color: var $acent;
+}
+.post-title-7 {
+    font-size: $text-lg;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-7 {
+    font-size: $text-md;
+    color: $primary;
+    display:flex;
+    justify-content: center;
+}
+.post-text-7 {
+    font-size: var $text-sm;
+}
+.section-8 {
+    display:grid ;
+    gap: var $sp-md;
+    font-size: var $text-md;
+    background-color: var $primary;
+}
+.post-title-8 {
+    font-size: var$text-lg ;
+    color: var $acent;
+    display: flex;
+    justify-content: center;
+}
+.post-subtitle-8 {
+    font-size: var $text-md;
+    display: flex;
+    justify-content: center;
+    
+}
+.post-text-8 {
+    font-size: var $text-sm;
+}

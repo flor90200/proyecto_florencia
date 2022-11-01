@@ -1,0 +1,134 @@
+/*menu*/
+.img-photo {
+    background: url(../image/menu\ \(1\)\ 1.jpg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.h2-sub {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    color: #dac581;
+    font-weight: 600;
+    line-height: .4;
+}
+
+.fil {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.head {
+    font-size: 3.7em;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../image/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+.he-des h5 {
+    color: rgb(0, 0, 0);
+    font-size: 1.4em;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: -2px;
+}
+
+.cta-btn {
+    font-size: 1.1em;
+    background-color: #a928a7;
+    padding: 1.5rem 3rem;
+    color: rgb(255, 255, 255);
+    border-radius: .4rem;
+
+}
+.cta-btn:hover,
+.cta-btn:focus {
+    color: #fff;
+    background-color: #b855b6;
+}
+
+
+.global {
+    text-align: center;
+    margin-top: 3.9rem;
+}
+
+.dis-sto .global {
+    margin-top: 6.9rem;
+}
+
+.hea-dark {
+    color: #252525;
+    letter-spacing: .7rem;
+    margin-right: -.7rem;
+}
+
+.global .h2-sub {
+    letter-spacing: -1px;
+    line-height: .42;
+}
+
+.res-info {
+    text-align: center;
+}
+
+.res-des {
+    margin-bottom: 3rem;
+}
+
+.res-des p {
+    line-height: 1.6;
+    margin-bottom: 2.4rem
+}
+/*menu*/
+
+.taste {
+    background: url("../image/taste.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.bt {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+/*platillos*/
+
+.image-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
+.disco .res-des {
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
+
+.pb {
+    background: url("../image/mesa.jpg") center no-repeat;
+    background-size: cover;
+}
