@@ -1,0 +1,58 @@
+/*Header*/
+header {
+    background-color: $secondary ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 85px;
+    padding: $sp-xs;
+
+         li {
+            list-style: none;
+             display: inline-block;
+            padding: $sp-sm;
+            }
+            a {
+                text-decoration: none;
+                font-size: $text-xxs;
+                color: $primary;
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+            }
+             p {
+                 font-size: 1.6em;
+                }
+
+             nav a:hover {
+                 color: $accent;
+                }
+                img{
+                     height: 30px;
+                    width: auto;
+                    }
+            .nav {
+                 height: 7.2rem;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 flex-wrap: wrap;
+                }
+
+
+                .hamburguer {
+                     display: none;
+                    color: $primary;
+                    }
+
+                .checkevent {
+                    display: none;
+                     position: absolute;
+                     width: 47px;
+                    height: 42px;
+                    right: 402px;
+                    top: 46px;
+                    opacity: 0;
+                    }
+}
+
