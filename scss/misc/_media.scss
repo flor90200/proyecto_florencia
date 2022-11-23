@@ -79,7 +79,7 @@
          font-size: $text-xxl;
      }
      .post-subtitle {
-         font-size: $text-sm;
+         font-size: $text-sm ;
      }
  }
  @media screen and (max-width: 576px){    
@@ -280,7 +280,7 @@
          font-size: $text-xxs;
          display: flex;
          align-items: center;
-         padding: $-sp-sm;
+         padding: $sp-sm;
      }
      
      @media screen and (max-width: 480px) {

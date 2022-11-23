@@ -1,58 +1,78 @@
-/*Header*/
-header {
-    background-color: $secondary ;
+
+
+
+.header {
+    background-color:$secondary ;
+    left: 0;
+    top: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+     align-items: center;
+    flex-wrap: wrap; 
     height: 85px;
-    padding: $sp-xs;
+    padding:$sp-xs; 
 
-         li {
-            list-style: none;
-             display: inline-block;
-            padding: $sp-sm;
-            }
-            a {
-                text-decoration: none;
+    .logo{
+                height: 30px;
+                width: auto;
+            }  
+         .nav {
+                height: 7.2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+        .header .nav {
+            list-style: none; 
+        }  
+            
+            .header .nav .a .menu {
+                     display: inline-block;
+                     padding: $sp-sm; } 
+
+                    .header .nav .a .menu{
                 font-size: $text-xxs;
                 color: $primary;
                 text-decoration: none;
                 transition: all .3s ease-in-out;
+                     
+                                         
+                     header nav .a .menu:hover {
+                        color: $accent; } 
+        }
+        a {
+            text-decoration: none;
+        }
+        p {
+            font-size: 1.6em;
+        }     
             }
-             p {
-                 font-size: 1.6em;
-                }
+              
+            .hamburguer {
+                display: none;
+                color: $primary;
+            }
+            
+            .checkevent {
+                display: none;
+                position: absolute;
+                width: 47px;
+                height: 42px;
+                right: 217px;
+                top: 68px;
+                opacity: 0;
+            }          
 
-             nav a:hover {
-                 color: $accent;
-                }
-                img{
-                     height: 30px;
-                    width: auto;
-                    }
-            .nav {
-                 height: 7.2rem;
-                 display: flex;
-                 align-items: center;
-                 justify-content: center;
-                 flex-wrap: wrap;
-                }
-
-
-                .hamburguer {
-                     display: none;
-                    color: $primary;
-                    }
-
-                .checkevent {
-                    display: none;
-                     position: absolute;
-                     width: 47px;
-                    height: 42px;
-                    right: 402px;
-                    top: 46px;
-                    opacity: 0;
-                    }
+            .header-contact {
+                position: absolute;
+                }                               
+               
+              
 }
+
+
+
+
+
 

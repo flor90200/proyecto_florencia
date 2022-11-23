@@ -3,71 +3,142 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 1.5rem;
+
+.title {
+    font-size: $text-lg;
+    color: $acent;
+    display: grid;
+    grid-column: span 12;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
 }
 .gallery__img--1 {
     grid-column:span 4;
-    grid-row: 1;
+    grid-row: 2;
+    transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.gallery__img--1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+   
 }
 .gallery__img--2 {
     grid-column:span 4;
-    grid-row: 1;
+    grid-row: 2;
+    transition: transform .4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.gallery__img--2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .gallery__img--3 {
     grid-column:span 6;
-    grid-row: 1;
+    grid-row: 2;
+    transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--4 {
     grid-column:span 8;
-    grid-row: 2;
+    grid-row: 3;
+    transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--5{
     grid-column: span 5;
-    grid-row: 2;
+    grid-row: 3;
+    transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--5:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--6{
 grid-column: span 4;
-grid-row: 3 ;
+grid-row: 4 ;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--6:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--7{
 grid-column: span 9;
- grid-row: 3;
+ grid-row: 4;
+ transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--7:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--8{
 grid-column: span 4;
-grid-row: 4;
+grid-row: 5;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--8:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--9{
 grid-column: span 4;
-grid-row: 4;
+grid-row: 5;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--9:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--10{
 grid-column: span 4;
-grid-row: 4;
+grid-row: 5;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--10:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--11{
 grid-column:span 4;
-grid-row: 5/8;
+grid-row: 6/9;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--11:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--12{
 grid-column: span 4;
-grid-row: 8;
+grid-row: 9;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--12:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--13{
 grid-column: span 10;
-grid-row: 7/9;
+grid-row: 8/10;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
-
+.gallery__img--13:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .gallery__img--14{
 grid-column: span 9;
-grid-row: 5/ 7;
+grid-row: 6/ 8;
+transition: transform .5s cubic-bezier(0.785, 0.135, 0.15, 0.86); 
+}
+.gallery__img--14:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 }

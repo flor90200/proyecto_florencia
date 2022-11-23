@@ -7,19 +7,22 @@
     <meta name="keywords" content="personajes house of the dragon, Raenhira, DAEMON, VISERYS, TARGARYEN, DAENERYS TARGARYEN, LA CASA DEL DRAGON PERSONAJES, HBO, FAN PAGE PERSONAJES HOTD, HOTD FAN PAGE, DROGON, DRAGONES, CASAS, Hightower, reparto de personajes de house of the dragon">
     <title>Personajes HOTD</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">    
 
 
 </head>
 <body>
-    <header>
-        <img src="../image/logo.png" alt="logo" width="20x" height="30px>
+    <header class="header-personajes">
+        <img src="../image/logo.png" alt="logo" >
     <div class="container">
-    <nav>
-        <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" width="60" height="60" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path fill="white" d="M16.4 9H3.6c-.552 0-.6.447-.6 1c0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1c0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1c0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1c0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1c0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1c0 .553.048 1 .6 1z"/></svg>
-        <input type="checkbox" class="checkevent" name="hamburguer" id="hamburguer">
-
+    <nav class="nav">
+         <label for="check" class="nav__label">
+            <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" width="60" height="60" preserveAspectRatio="xMidYMid meet" viewBox="0 0 20 20"><path fill="white" d="M16.4 9H3.6c-.552 0-.6.447-.6 1c0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1c0-.553-.048-1-.6-1zm0 4H3.6c-.552 0-.6.447-.6 1c0 .553.048 1 .6 1h12.8c.552 0 .6-.447.6-1c0-.553-.048-1-.6-1zM3.6 7h12.8c.552 0 .6-.447.6-1c0-.553-.048-1-.6-1H3.6c-.552 0-.6.447-.6 1c0 .553.048 1 .6 1z"/></svg>
+        </label>
+        <input type="checkbox" class="checkevent" name="hamburguer" id="check">
             <ul class="nav-link">
+           
              <li class="nav-item">
                 <a href="../index.html">Home</a>
             </li>
@@ -45,10 +48,56 @@
     </nav>
     </div>
     </header>  
-    <figure>
-      <img src="../image/galeria1.jpg" alt="capitulo1">
-     </figure>
-    <main>
+    <section class="home">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../image/rhaenyra-a-casa-do-dragao-emma-darcy 1 (6).jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Yo soy</h5>
+                  <p>Rhaenhira Targaryen</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../image/aegon-aegon-targaryen personajes.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>yo soy</h5>
+                  <p>Aegon Targaryen II</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../image/house-of-the-dragon-daemon-targaryen-.jpg" class="d-block w-100" alt="carousel-1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Yo soy </h5>
+                  <p>Daemon Targaryen </p>
+                </div>
+              </div> 
+                 <div class="carousel-item">
+              <img src="../image/Emily-Carey-as-Young-Alicent-Hightower-and-Her-Green-Dress-Explained 1 (5).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+     </section>
+    <main class="main">
         <section class="section" class="bg-accent">
             <div class="container">
                 <article class="post-preview">
@@ -59,88 +108,255 @@
         <section class="section-1">
                 <article class="post-preview-1-images">
                     <figure class="post-preview-1-img">
-                        <img src="../image/galeria2.jpg" alt="capitulo2">
+                        <img src="../image/emma-darcy-rhaenira-casa-del-dragon.jpg" alt="capitulo2">
                     </figure>
                 </article>
                 <article class="post-preview-1">
-                    <h2 class="post-title-1">Raenhira</h2>
-                    <h3 class="post-subtitle-1">nombre original</h3>
-                    <p class="post-text-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, assumenda quo magnam aut nemo mollitia perspiciatis perferendis. Eligendi, quod voluptas. Officiis fuga quidem nulla blanditiis libero doloremque, ipsam eos sapiente! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaerat itaque doloribus? Ullam porro, ab nostrum repellat, quam officiis suscipit voluptas modi fugiat, quaerat eligendi omnis accusamus voluptates temporibus odit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sunt nemo neque, beatae dolore aliquam soluta ea natus minus enim quisquam. Omnis, facere inventore voluptatem officia sapiente aliquid eaque reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis perferendis placeat ratione harum, nemo corrupti! Odio, blanditiis facilis. Consequuntur blanditiis minima laudantium officiis facere nemo! Eligendi natus assumenda repudiandae odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus blanditiis iure id illo architecto, at veniam placeat culpa dolores vel dolor perferendis. Assumenda eius a commodi dolores libero et?</p>
+                    <h2 class="post-title-1">Rhaenyra Targaryen</h2>
+                    <h3 class="post-subtitle-1">Emma D’Arcy</h3>
+                    <p class="post-text-1">Rhaenyra Targaryen es la primogénita del rey Viserys I Targaryen y su primera esposa Aemma Arryn. La princesa es una jinete de dragón y tiene muchas cualidades, pero no nació hombre, lo que complica su ascenso al Trono de Hierro.
+
+                        Mientras Emma D’Arcy dará vida a la versión adulta de Rhaenyra Targaryen, Milly Alcock será la encargada de interpretar a la versión joven de la princesa.</p>
+                </article>
+                <article class="post-preview--1-images">
+                    <figure class="post-preview--1-img">
+                        <img src="../image/rhaenira-Targaryen-house-of-the-dragon.jpg" alt="capitulo2">
+                    </figure>
                 </article>
         </section>
         <section class="section-2">
-                <article class="post-preview-2">
-                    <figure>
-                        <img src="../image/galeria3.jpg" alt="capitulo3">
-                    </figure>
-                    <h2 class="post-title-2">Daemon</h2>
-                    <h3 class="post-subtitle-2">nombre real</h3>
-                    <p class="post-text-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime exercitationem soluta aspernatur voluptates ipsam assumenda fuga aperiam, magnam quos enim quisquam vitae, corrupti nihil eligendi excepturi voluptatibus tempore et quaerat.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaer
+                <article class="post-preview-2-images">
+                    <figure class="post-preview-2-img">
+                        <img src="../image/Daemon-Targaryen-Matt-Smitt.jpg" alt="capitulo3">
+                    </figure> 
                 </article>
+                <article class= "post-preview-2">
+                    <h2 class="post-title-2">Daemon Targaryen</h2>
+                    <h3 class="post-subtitle-2">Matt Smith</h3>
+                    <p class="post-text-2">Daemon Targaryen es el hermano menor de Viserys I y tío de Rhaenyra. Incomparable guerrero y jinete de dragones. Además, posee la verdadera sangre del dragón. Pero se dice que cada vez que nace un Targaryen, los dioses lanzan una moneda al aire.</p>
+               </article>
         </section>
         <section class="section-3">
-                <article class="post-preview-3">
-                    <figure>
-                        <img src="../image/galeria4.jpg" alt="capitulo4">
+                <article class="post-preview-3-images">
+                    <figure class="post-preview-3-img" >
+                        <img src="../image/Alicent-Hightower.jpg" alt="capitulo4">
                     </figure>
-                    <h2 class="post-title-3">Alicent</h2>
-                    <h3 class="post-subtitle-3">nombre real</h3>
-                    <p class="post-text-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaer
+                   </article>
+                   <article class="post-preview-3">
+                    <h2 class="post-title-3">Alicent Hightower</h2>
+                    <h3 class="post-subtitle-3">Olivia Cooke</h3>
+                    <p class="post-text-3">La reina Alicent Hightower es hija de hija de Otto Hightower y la segunda esposa de Viserys I. Considerada la mujer más hermosa de los Siete Reinos, Alicente se crió en la Fortaleza Roja, cerca del rey y su círculo más íntimo, por lo tanto, posee una aguda perspicacia política. Alicent tiene una estrecha amistad con la princesa Rhaenyra Targaryen, pero la relación puede complicarse por su conexión con el rey Viserys. </p>
+                </article>
+                <article class="post-preview--3-images">
+                    <figure class="post-preview--3-img">
+                        <img src="../image/alicen-hightower-house-of-the-dragon.jpg" alt="capitulo3">
+                    </figure> 
                 </article>
         </section>
         <section class="section-4">
-                <article class="post-preview-4">
-                    <figure>
-                        <img src="../image/galeria5.jpg" alt="capitulo5">
+                <article class="post-preview-4-images">
+                    <figuren class="post-preview-4-img">
+                        <img src="../image/Viserys-targaryen-house-of-the-dragon.jpg" alt="capitulo5">
                     </figure>
-                    <h2 class="post-title-4">sir criston</h2>
-                    <h3 class="post-subtitle-4">nombre real</h3>
-                    <p class="post-text-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaer
+                   </article>
+                    <article class="post-preview-4">
+                    <h2 class="post-title-4">Viserys Targaryen</h2>
+                    <h3 class="post-subtitle-4">Paddy Considine</h3>
+                    <p class="post-text-4">Viserys I Targaryen es el Rey de los Siete Reinos y fue elegido por los señores de Poniente para suceder al Viejo Rey, Jaehaerys Targaryen, en el Gran Consejo de Harrenhal. Se trata de un hombre cálido, amable y decente, que solo desea continuar con el legado de su abuelo, “pero como hemos aprendido de Game of Thrones, los buenos hombres no necesariamente son grandes reyes”.</p>
                 </article>
         </section>
         <section class="section-5">
-                <article class="post-preview-5">
-                    <figure>
-                        <img src="../image/galeria6.jpg" alt="capitulo6">
+                <article class="post-preview-5-images">
+                    <figure class="post-preview-5-img">
+                        <img src="../image/Aegon-coronacion-house-of-the-dragon.jpg" alt="capitulo6">
                     </figure>
-                    <h2 class="post-title-5">Viserys</h2>
-                    <h3 class="post-subtitle-5">nombre real</h3>
-                    <p class="post-text-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat consectetur omnis architecto? Hic deleniti non culpa, laborum recusandae corporis repudiandae nesciunt error perferendis aspernatur impedit, maiores tempore debitis minus dolores.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaer
+                 </article>
+                    <article class="post-preview-5">
+                    <h2 class="post-title-5">Aegon Targaryen II</h2>
+                    <h3 class="post-subtitle-5">Tom Glynn-Carney</h3>
+                    <p class="post-text-5">  Aegon Targaryen, el hijo primogénito del rey Viserys. medio hermano de Rhaenyra. Es odiado por el pueblo y le roba la corona a su hermana mayor Rhaenyra
+                </article>
+                <article class="post-preview--5-images">
+                    <figure class="post-preview--5-img">
+                        <img src="../image/Aegon-Targaryen-II-.jpg" alt="capitulo3">
+                    </figure> 
                 </article>
         </section>
         <section class="section-6">
-                <article class="post-preview-6">
-                    <figure>
-                        <img src="../image/galeria7.jpg" alt="capitulo7">
+                <article class="post-previe6w-6-images">
+                    <figure class="post-preview-6-img" >
+                        <img src="../image/Aemond-Targaryen.jpg" alt="capitulo7">
                     </figure>
-                    <h2 class="post-title-6">OTTO</h2>
-                    <h3 class="post-subtitle-6">Nombre real</h3>
-                    <p class="post-text-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaer
+                  </article>
+                  <article class="post-preview-6">
+                    <h2 class="post-title-6">Aemond Targaryen</h2>
+                    <h3 class="post-subtitle-6">Ewan Mitchell</h3>
+                    <p class="post-text-6">Aemond Targaryen, el segundo hijo de Viserys, sobrino de Daemon y medio hermano de Rhaenyra. Aemond pierde un ojo tras robar el ex dragon de Leana. Gracias a eso se deasatan muchos conflictos.
+                </article>
+                <article class="post-preview--6-images">
+                    <figure class="post-preview--6-img">
+                        <img src="../image/Aemond-house-of-the-dragon.jpg" alt="capitulo3">
+                    </figure> 
                 </article>
         </section>
         <section class="section-7">
-               <article class="post-preview-7">
-                    <figure>
-                        <img src="../image/galeria8.jpg" alt="capitulo8">
+               <article class="post-preview-7-images">
+                    <figure class="post-preview-7-img">
+                        <img src="../image/Helaena-Targaryen.jpg" alt="capitulo8">
                     </figure>
-                    <h2 class="post-title-7">Aemon</h2>
-                    <h3 class="post-subtitle-7">nombre real</h3>
-                    <p class="post-text-7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaer
+              </article>
+              <article class="post-preview-7">
+                    <h2 class="post-title-7">Helaena Targaryen</h2>
+                    <h3 class="post-subtitle-7">Phia Saban</h3>
+                    <p class="post-text-7">Helaena Targaryen, la segunda hija de Viserys, hermana de Aegon y Aemond, media hermana de Rhaenyra. Se casa con su hermano Aegon para seguir su linaje, pero se aventura con su otro hermano y tienen dos hijos bastardos
                 </article>
     </section>
     <section class="section-8">
-                <article class="post-preview-8">
-                    <figure>
-                        <img src="../image/galeria9.jpg" alt="capitulo9">
+                <article class="post-preview-8-images">
+                    <figure class="post-preview-8-img">
+                        <img src="../image/Otto-Hightower.jpg" alt="capitulo9">
                     </figure>
-                    <h2 class="post-title-8">hermano aemon</h2>
-                    <h3 class="post-subtitle-8">nombre real</h3>
+                </article>
+                <article class="post-preview-8">
+                    <h2 class="post-title-8">Otto Hightower</h2>
+                    <h3 class="post-subtitle-8">Rhys Ifans</h3>
                     <p class="post-text-8">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quaer
+                        En “House of the Dragon”, Rhys Ifans interpreta a Otto Hightower, el padre de la reina Alicent y la Mano del Rey. Él sirve fielmente a Viserys I, por eso, considera que la mayor amenaza para el reino es Daemon Targaryen. Hará todo lo posible para poner a su familia en lo más alto del reino, poniendose en contra de Rhaenyra y Daemon.</p>
                 </article>
     </section>
+    <section class="section-9">
+        <article class="post-preview-9-images">
+            <figure class="post-preview-9-img">
+                <img src="../image/Harwin-Strong.jpg" alt="capitulo9">
+            </figure>
+        </article>
+        <article class="post-preview-9">
+            <h2 class="post-title-9">Harwin Strong</h2>
+            <h3 class="post-subtitle-9">Ryan Corr</h3>
+            <p class="post-text-9">
+                el hijo mayor del maestro de leyes Lyonel Strong y heredero de Harrenhal. Se enamora perdidamente de Rhaenyra y tienen tres bastardos.</p>
+        </article>
+</section>
+<section class="section-10">
+    <article class="post-previe6w-10-images">
+        <figure class="post-preview-10-img" >
+            <img src="../image/jacaerys-velaryon-house-of-the-dragon.jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-10">
+        <h2 class="post-title-10">Jacaerys Velaryon</h2>
+        <h3 class="post-subtitle-10">Harry Collett </h3>
+        <p class="post-text-10">Jacaerys Velaryon, el hijo mayor de Rhaenyra Targaryen. Su padre es lord Harwin Strong. Todos cuestionaran si es hijo de Harwin y tendra muchas peleas por eso. </p>
+    </article>
+    <article class="post-preview--10-images">
+        <figure class="post-preview--10-img">
+            <img src="../image/jacaerys-velaryon.jpg" alt="capitulo3">
+        </figure> 
+    </article>
+</section>
+<section class="section-11">
+    <article class="post-preview-11-images">
+        <figure class="post-preview-11-img" >
+            <img src="../image/Lucerys-VELARYON.jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-11">
+        <h2 class="post-title-11">Lucerys Velaryon</h2>
+        <h3 class="post-subtitle-11">Elliot Grihault</h3>
+        <p class="post-text-11">El príncipe Lucerys Velaryon, apodado Luke, fue el segundo hijo de Ser Laenor Velaryon y la princesa Rhaenyra Targaryen. Fue jinete del dragón Arrax. </p>
+    </article>
+    <article class="post-preview--11-images">
+        <figure class="post-preview--11-img">
+            <img src="../image/Lucerys-Velaryon-House-Of-The-Dragon.jpg" alt="capitulo3">
+        </figure> 
+    </article>
+</section>
+<section class="section-12">
+    <article class="post-preview-12-images">
+        <figure class="post-preview-12-img" >
+            <img src="../image/Baela Velaryon.jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-12">
+        <h2 class="post-title-12">Baela Velaryon</h2>
+        <h3 class="post-subtitle-12">Bethany Antonia</h3>
+        <p class="post-text-12">la hija mayor de Laena Velaryon y Daemon Targaryen. jinete del joven dragón Moondancer. </p>
+    </article>
+</section>
+<section class="section-13">
+    <article class="post-preview-13-images">
+        <figure class="post-preview-13-img" >
+            <img src="../image/Rhaena Velaryon.jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-13">
+        <h2 class="post-title-13">Rhaena Velaryon</h2>
+        <h3 class="post-subtitle-13">Phoebe Campbell</h3>
+        <p class="post-text-13"> la segunda hija de Lady Laena y Daemon Targaryen. hermana de Baela. </p>
+    </article>
+</section>
+<section class="section-14">
+    <article class="post-preview-14-images">
+        <figure class="post-preview-14-img" >
+            <img src="../image/Corlys-Velaryon.png" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-14">
+        <h2 class="post-title-14">Corlys Velaryon</h2>
+        <h3 class="post-subtitle-14">Steve Toussaint</h3>
+        <p class="post-text-14">Lord Corlys Velaryon es el líder de una familia formidable con raíces antiguas, y está casado con la princesa Rhaenys Targaryen, quien fue ignorada a la hora de elegir al futuro gobernante de Westeros. Apodado La Serpiente Marina en su juventud, Lord Corlys fue el mejor explorador de Poniente y ahora es capitán de barcos en el pequeño consejo del rey Viserys. El hombre más rico de Westeros, su vasta riqueza incluye la armada más grande del mundo, lo que lo coloca en una posición poderosa en la corte. Él es el Amo de Marcaderiva, una isla al oeste de Rocadragon en la Bahía de Aguasnegras, que es la sede de la Casa Velaryon. La Serpiente Marina es un hombre astuto, a menudo no está de acuerdo con el rey Viserys sobre su manejo del reino, pero permanece leal a la corona.
+
+            Su cargo Maestro de Barcos le otorga un asiento en el Consejo Pequeño del Rey. Sus funciones comprenden comandar la flota real, organizar la construcción y el mantenimiento de los barcos de guerra, obtener tripulaciones para los barcos de guerra y comandar las operaciones navales. </p>
+    </article>
+</section>
+<section class="section-15">
+    <article class="post-preview-15-images">
+        <figure class="post-preview-15-img" >
+            <img src="../image/rhaenys targaryen.jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-15">
+        <h2 class="post-title-15">Rhaenys targaryen</h2>
+        <h3 class="post-subtitle-15"> Eve Best</h3>
+        <p class="post-text-15">La princesa Rhaenys Targaryen es la prima del rey Viserys I y esposa de Lord Corlys Velaryon. “La Reina que nunca existió” fue descartada como heredera al trono en el Gran Consejo porque el reino favorecía a su primo, Viserys, simplemente por ser hombre.</p>
+    </article>
+</section>
+<section class="section-16">
+    <article class="post-preview-16-images">
+        <figure class="post-preview-16-img" >
+            <img src="../image/laena-velaryon (2).jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-16">
+        <h2 class="post-title-16">Leana Velaryon</h2>
+        <h3 class="post-subtitle-16">Savannah Steyn</h3>
+        <p class="post-text-16">Lady Laena Velaryon, la hija de Corlys Velaryon y Rhaenys Targaryen. Tuvo uno de los dragones mas grandes y antiguos. Se casa con Daemon y tienen dos hijas. </p>
+    </article>
+</section>
+<section class="section-17">
+    <article class="post-preview-17-images">
+        <figure class="post-preview-17-img" >
+            <img src="../image/laenor-velaryon (1).jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-17">
+        <h2 class="post-title-17">Leonor Velaryon</h2>
+        <h3 class="post-subtitle-17">John Macmillan</h3>
+        <p class="post-text-17"> el hijo de Corlys Velaryon y Rhaenys Targaryen. Ex esposo de Rhanenyra y supuesto padre de Jacaerys, Lucerys y Joffrey. Decide casarse por custiones politicas, pero en realidad se enamoro de un lacayo que en la misma boda lo asesinan </p>
+    </article>
+</section>
+<section class="section-18">
+    <article class="post-preview-18-images">
+        <figure class="post-preview-18-img" >
+            <img src="../image/sir-criston.jpg" alt="capitulo7">
+        </figure>
+      </article>
+      <article class="post-preview-18">
+        <h2 class="post-title-18">Sir Criston</h2>
+        <h3 class="post-subtitle-18">Fabien Frankel</h3>
+        <p class="post-text-18">El Lord Comandante de la Guardia Real de Viserys I tiene ascendencia dorniense y es el hijo común del mayordomo del Señor de Blackhaven. “No tiene derecho a la tierra ni a los títulos; todo lo que tiene en su nombre es su honor y su habilidad sobrenatural con la espada”.</p>
+    </article>
+</section>
             </div>
     </main>
     <footer>
@@ -197,6 +413,10 @@
         menuToggle.addEventListener('click', function(){
             body.classList.toggle('open');
         })
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
     
     </script>
     

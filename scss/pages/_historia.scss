@@ -1,0 +1,296 @@
+/*historia*/
+.bg-light{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+
+    .header{
+        grid-column: span 12;
+        grid-row: 1;  
+                    }
+
+
+        .section-historia{ 
+            @include grid ($temp span 12,$row 2,  $jc space-around, $ai center,$sp-md );
+             font-size: $text-sm;
+             background-color: $acent;
+             margin: 0 auto;
+             
+    
+             .img-historia{
+                display: grid;
+                grid-column: span 5;
+                grid-row: 1/2;
+                box-sizing: border-box;
+                border-radius: 8px;
+                }
+
+                .post-preview{
+                    display: grid;
+                    grid-column:span 5;
+                    grid-row: 1/2;
+
+                    .post-title{
+                        color: $primary;
+                        align-items: center;
+                    }
+                    .post-subtitle--{
+                        font-size: $text-md;
+                        color: $primary;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                }
+                .container-hisotria{
+                    padding: $sp-xl;
+                    font-size: $text-xs;
+                    display: grid;
+                    justify-content: center;
+                    grid-column: span 12;
+                    grid-row: 3;  
+                
+                    .post-text-historia{
+                        font-size: $text-sm; 
+                        display: flex;
+                        align-items: center;
+                    
+                    }
+                    
+                    .post-subtitle{
+                         display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                .section-historia-2{
+                    padding: $sp-xl;
+                    font-size: $text-xs;
+                    display: grid;
+                    justify-content: center;
+                    grid-column: span 12;
+                    grid-row: 4;  
+                    .post-subtitle-historia{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $light;
+                    font-size: $text-md;
+                                           
+                    .post-preview-historia{
+                    display: grid;
+                    grid-column:span 12;
+                    grid-row: 4;
+                }
+                .post-preview--historia{
+                    display: grid;
+                    grid-column:span 12;
+                    grid-row: 5;
+                    
+                    
+                }
+                .post-preview-historia--{
+                    display: grid;
+                    grid-column: span 12;
+                    grid-row: 6;
+                } 
+                .post-preview--{
+                    display: grid;
+                    grid-column: span 12;
+                    grid-row: 8;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                }
+                }
+                }
+                .section-aside{
+                    display:grid;
+                    gap: $sp-md;
+                    font-size: $text-sm;
+                    background-color: $acent;
+                    margin: 0 auto;
+                    align-items: center;
+                    justify-content: space-around;
+                    grid-column: span 12;
+                    grid-row: 6;
+                
+                    .post-preview-text{
+                        display:grid;
+                        gap: $sp-md;
+                        font-size: $text-sm;
+                        align-items: center;
+                        justify-content: justify center; 
+                        grid-column: span 12;
+                         grid-row: 4;
+                    }
+                   
+                }
+
+                
+.images-historia{
+    display: grid;
+    grid-column:span 12;
+    grid-row: 7;
+
+    .post-title-image{
+        font-size:$text-lg;
+        display: grid;
+        justify-content: center;
+        gap: $sp-md
+    }
+    .post-preview-image-historia{
+        display:grid;
+        gap: $sp-md;
+        align-items: center;
+        justify-content: space-around;
+        grid-column: span 12;
+        grid-row: 5/6;
+
+        .img-historia-figure{
+            display: grid;
+            grid-column: span 12;
+            grid-row: 5/6;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        .post-title-image-1{
+            font-size: $text-lg;
+            display: grid;
+            justify-content: center;
+            gap: $sp-md;
+            grid-column: span 12;
+            grid-row: 5/6;
+        }
+    }
+
+    .post-preview-image-historia-2{
+        display:grid;
+        gap: $sp-md;
+        align-items: center;
+        justify-content: space-around;
+        grid-column: span 12;
+        grid-row: 6/7;
+
+        .post-title-image-2{
+            font-size: $text-lg;
+            display: grid;
+            justify-content: center;
+            gap: $sp-md;
+            grid-column: span 12;
+            grid-row: 6/7;
+        }
+        .img-historia-figure-2{
+            display: grid;
+            grid-column: span 12;
+            grid-row: 6/7;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+    }
+
+    .post-preview-image-historia-3{
+        display:grid;
+        gap: $sp-md;
+        align-items: center;
+        justify-content: space-around;
+        grid-column: span 12;
+        grid-row: 7/8;
+
+        .post-title-image-3{
+            font-size: $text-lg;
+            display: grid;
+            justify-content: center;
+            gap: $sp-md;
+            grid-column: span 12;
+            grid-row: 7/8;
+        }
+        .img-historia-figure-3{
+            display: grid;
+            grid-column: span 12;
+            grid-row: 7/8;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+    }
+
+    .post-preview-image-historia-4{
+        display:grid;
+        gap: $sp-md;
+        align-items: center;
+        justify-content: space-around;
+        grid-column: span 12;
+        grid-row: 8/9;
+
+        .post-title-image-4{
+            font-size:$text-lg;
+            display: grid;
+            justify-content: center;
+            gap: $sp-md;
+            grid-column: span 12;
+            grid-row: 8/9;
+        }
+        .img-historia-figure-4{
+            display: grid;
+            grid-column: span 12;
+            grid-row: 8/9;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+    }
+
+    .post-preview-image-historia-5{
+        display:grid;
+        gap: $sp-md;
+        align-items: center;
+        justify-content: space-around;
+        grid-column: span 12;
+        grid-row: 9/10;
+
+        .post-title-image-5{
+            font-size: $text-lg;
+            display: grid;
+            justify-content: center;
+            gap: $sp-md;
+            grid-column: span 12;
+            grid-row: 9/10;
+        }
+        .img-historia-figure-5{
+            display: grid;
+            grid-column: span 12;
+            grid-row: 9/10;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+    }
+}
+
+
+
+.footer{
+    display:grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-column: span 12;
+    grid-row: 8; 
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

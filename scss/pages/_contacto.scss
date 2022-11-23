@@ -1,0 +1,70 @@
+.contacto{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../image/792056\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+   
+
+    .contact__right-side{
+        width: 85%;
+        max-width: 600px;
+        background: rgb(46, 45, 45);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        padding: 70px 80px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 0 20px $primary;
+        font-size: $text-md;
+    
+   
+    .contact_title{
+        margin-top: 0;
+        font-weight: $text-lg;
+        color: $primary;
+    }
+    .contact__input-line{
+        border: 1px solid $light;
+        margin: 8px 0;
+        padding: 12px 18px;
+        border-radius: 8px;
+    }
+    .contact__form-wrapper{
+        display: block;
+        text-align: left;
+        color: $primary;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .contact__input{
+        width: 100%;
+        border: none;
+        background: none;
+        outline: none;
+        font-size: $text-xxs;
+        margin: 6px;
+    }
+    .contact__submit-button{
+        display: inline-block;
+        background: $accent;
+        padding: 14px 0;
+        color: $primary;
+        text-transform: uppercase;
+        cursor: pointer;
+        margin-top: 8px;
+        width: 100%;
+    }
+    .contact__submit-button:hover{
+        background-color: $acent;
+        transition: 0.3s ease;
+         }
+        
+ }    
+}

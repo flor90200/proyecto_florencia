@@ -1,13 +1,16 @@
 /*variables*/
-@import url('<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500;1,800&family=Lato:wght@100;400;700;900&display=swap');
 
+
+ 
 
 /*misc*/
 
 @import './misc/variables';
+@import './misc/mixin';
 @import './misc/normalize';
+
+
 @import './misc/media';
 
 /* partials */

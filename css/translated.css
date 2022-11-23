@@ -1,0 +1,18 @@
+/* Error: Undefined variable.
+ *    ,
+ * 14 |             @include grid ($temp span 12,$row 2,  $jc space-around, $ai center,$sp-md );
+ *    |                            ^^^^^
+ *    '
+ *   scss\pages\_historia.scss 14:28  @import
+ *   scss\index.scss 25:9             root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 14 \2502              @include grid ($temp span 12,$row 2,  $jc space-around, $ai center,$sp-md );\d\a    \2502                             ^^^^^\a    \2575 \a   scss\\pages\\_historia.scss 14:28  @import\a   scss\\index.scss 25:9             root stylesheet";
+}
