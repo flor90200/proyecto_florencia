@@ -27,18 +27,18 @@
             list-style: none; 
         }  
             
-            .header .nav .a .menu {
+            .header .nav .a {
                      display: inline-block;
                      padding: $sp-sm; } 
 
-                    .header .nav .a .menu{
+                    .header .nav .a {
                 font-size: $text-xxs;
                 color: $primary;
                 text-decoration: none;
                 transition: all .3s ease-in-out;
                      
                                          
-                     header nav .a .menu:hover {
+                     header nav a:hover {
                         color: $accent; } 
         }
         a {
